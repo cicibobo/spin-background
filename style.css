@@ -22,22 +22,22 @@ body{
 
 @keyframes rotation{
     0% {background-position-y: 0px;}
-    6% {background-position-y: -403px;}
+    6% {background-position-y: -450px;}
     12% {background-position-y: -403px;}
     25% {background-position-y: -403px;}
 
     31% {background-position-y: -403px;}
-    37% {background-position-y: -930px;}
+    37% {background-position-y: -950px;}
     44% {background-position-y: -906px;}
     50% {background-position-y: -906px;}    
 
     56% {background-position-y: -906px;}
-    62% {background-position-y: -1430px;}
+    62% {background-position-y: -1450px;}
     68% {background-position-y: -1409px;}
     75% {background-position-y: -1409px;}
 
     81% {background-position-y: -1409px;}
-    87% {background-position-y: -1930px;}
+    87% {background-position-y: -1950px;}
     93% {background-position-y: -1912px;}
     100% {background-position-y: -1912px;}
 }
