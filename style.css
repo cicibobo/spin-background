@@ -1,0 +1,43 @@
+
+body{
+    background: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading-rotation{
+    width:99px;
+    height: 106px;
+    background: url('./card.svg') no-repeat;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: repeat-y;
+    animation: rotation 10s ease-in-out forwards infinite normal;
+}
+
+@keyframes rotation{
+    0% {background-position-y: 0px;}
+    6% {background-position-y: -403px;}
+    12% {background-position-y: -403px;}
+    25% {background-position-y: -403px;}
+
+    31% {background-position-y: -403px;}
+    37% {background-position-y: -930px;}
+    44% {background-position-y: -906px;}
+    50% {background-position-y: -906px;}    
+
+    56% {background-position-y: -906px;}
+    62% {background-position-y: -1430px;}
+    68% {background-position-y: -1409px;}
+    75% {background-position-y: -1409px;}
+
+    81% {background-position-y: -1409px;}
+    87% {background-position-y: -1930px;}
+    93% {background-position-y: -1912px;}
+    100% {background-position-y: -1912px;}
+}
